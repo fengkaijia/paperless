@@ -84,7 +84,7 @@ fi
 apt-get update
 
 # Needed for plain Paperless
-apt-get -y install unpaper gnupg libpoppler-cpp-dev python3-pyocr tesseract-ocr imagemagick optipng git
+apt-get -y install unpaper gnupg libpoppler-cpp-dev libpq-dev libjpeg-dev python3-pyocr tesseract-ocr imagemagick optipng git
 
 # Needed for Apache
 apt-get -y install apache2 libapache2-mod-wsgi-py3
